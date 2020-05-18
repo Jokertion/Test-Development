@@ -13,7 +13,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-from PO.selenium_wework_add_member.page.contact import Contact
+from Selenium_PageObject.selenium_wework_add_member.page.contact import Contact
 
 
 class Index(object):

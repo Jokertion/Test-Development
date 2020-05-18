@@ -7,7 +7,7 @@
 @desc: 
 """
 
-from PO.selenium_wework_add_member.page.index import Index
+from Selenium_PageObject.selenium_wework_add_member.page.index import Index
 
 
 class TestAddMember():
