@@ -3,7 +3,7 @@
 """
 @author: lms
 @file: first_run.py
-@time: 2020/5/20 0:20
+@time: 2020/5/23 10:04
 @desc: 
 """
 from appium import webdriver

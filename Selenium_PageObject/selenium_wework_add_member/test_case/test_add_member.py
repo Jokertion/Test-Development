@@ -10,10 +10,14 @@
 from Selenium_PageObject.selenium_wework_add_member.page.index import Index
 
 
-class TestAddMember():
-    def setup(self):
+class TestAddMember(object):
+    def __init__(self):
         # 初始化浏览器
         self.index = Index()
 
     def test_member_add(self):
-        self.index.goto_contact().add_member()
+        contact = self.index.goto_contact()
+        # todo: 增加断言和验证函数
+        # todo: 修改sleep瞎睡的问题
+        # todo： 抽离出初始化的部分和driver
+        contact.add_member()
